@@ -1,64 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=divece-width,user-scalable=no">
-<title>Curriculum Vitae</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Comenzando con la fotografía</title>
+    <link href="css/estilos.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="contenido">
+      <header>
+        <div id="titulo">
+          <h1>Comenzando con la fotografía</h1>
+        </div>
+        <br>
+        <div id="menu">
+          <a class="item active" href="index.html">Inicio</a>
+          <a class="item" href="vinculos/paisaje.html">Paisajes</a>
+          <a class="item" href="vinculos/retrato.html">Retratos</a>
+        </div>
 
-<body>
+		</header>
 
-<section id="Cabecera">
-<header>
-<section id="Logo">
-<svg width="100px" height="100px" viewbox="0 0 100px 100px" id="logo">
- 	<image xlink:href="img/FH.svg" width="100px" height="100px"></image>
- </svg>
-	</section>
-	<h1 id="Titulo Principal">CURRICULUM VITAE</h1>
-</header>
-</section>
-<section id="Información Basica">
-	<h2>Nombres:</h2>
-	<h3>Francisco Javier</h3>
-	<h2>Apellidos:</h2>
-	<h3>Haro Badillo</h3>
-	<h2>Fecha y lugar de nacimiento:</h2>
-	<h3>1979/04/02 Guayaquil - Ecuador</h3>
-</section>
-<section id="Barra de Navegación">
-<nav id="Enlaces">
-<ul>
-	<li><a href="index.html" name="Inicio">Inicio</a></li>
-	<li><a href="vinculos/educacion.htm" name="Educación">Educación</a></li>
-	<li><a href="vinculos/experiencia.htm" name="Experiencia">Experiencia</a></li>
-</ul>
-</nav>
-</section>
-<section id="Información Personal">
-<h2>Información Personal</h2>
-	<img width="200px" height="200px" src="img/foto.jpg" alt="foto" title="foto"/>
-<h2>Perfil</h2>
-<p align="justify">Me desarrollo en el area de <strong>Help Desk y Networking</strong> principalmente. Adicional me he enfrentado a retos como implementación de servicios de <strong>Correo electronico(Zimbra), Firewall, Proxy, DNS, VoIP</strong> los mencionados me han llevado a la investigación y al auto aprendizaje.</p>
-<p align="justify">En la compañia que laboro se dedica a la comercialización de ropa y tengo la oportunidad de realizar informes de gestión para la toma de decisiones. En la mepresa tengo laborando 15 años lo que me ha permitido tener la apertura necesaria para participar en la toma de decisiones en conjunto a las Gerencias General, Financiera, Administrativa y Martketing.</p>
-<p align="justify">Siempre estoy abierto a nuevos retos y capacitaciones en los que pueda incursionar.</p>
-<h3>Idiomas:</h3>
-	<ul>
-		<li>Español (natal)</li>
-		<li>Inglés hablado 40% entendido 80% escrito 70%</li>
-	</ul>
-</section>
-<br/>
-<br/>
-<section id="Pie de pagina">
-<footer align="left">
-&copy; Derechos Reservados
-<ul>
-	<li><b>Correo:</b><a href="mailto:fharo@outlook.com">fharo@outlook.com</a></li>
-	<li><b>Movil:</b> +593 9 83006908</li>
-	<li><b>Dirección:</b> Alborada 3era etpada MZ BV villa 21 - Guayaquil - Ecuador</li>
-</ul>
-</footer>
-</section>
-</body>
+      <section>
+        <article id="img-principal">
+          <img src="img/paisaje.jpg" alt="Banner Principal">
+        </article>
+        <article id="img-izquierda">
+          <a class="img-link" href="vinculos/paisaje.html">
+            <img src="img/cotopaxi.jpg" alt="Imagen Paisajes">
+          </a>
+          <ins><h2>Paisajes</h2></ins>
+        </article>
+        <article id="img-derecha">
+          <a class="img-link" href="vinculos/retrato.html">
+            <img src="img/bebe.jpg" alt="Imagen Retratos">
+          </a>
+          <ins><h2>Retratos</h2></ins>
+        </article>
+      </section>
+
+      <footer>
+        <article id="contacto">
+          <h1>Contacto</h1>
+          <ins>fharo@outlook.com</ins><br>
+          Alborada 3era etapa<br>
+          Telefono: +593 (4) 512-2413
+        </article>
+        <article id="derechos">
+          <h1>Derechos</h1>
+          @Copyright - 2020
+        </article>
+        <article id="redes">
+          <h1>Redes Sociales</h1>
+          Comparte en nuestras redes<br>
+          <img src="img/fb.png" alt="Facebook"> ComenzandoFotografia<br>
+          <img src="img/t.png" alt="Twitter"> @ComenzandoFotografia<br>
+          <img src="img/i.png" alt="Instagram"> Comenzando_fotografia
+        </article>
+        <article id="terminos">
+          <h1>Terminos</h1>
+          <p>Conoce nuestros terminos y condiciones...</p>
+        </article>
+      </footer>
+    </div>
+  </body>
 </html>
