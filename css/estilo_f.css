@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Imagen de Fondo*/
+
+.fondo 
+{
+	background: url( ../img/restaurant.jpg ) no-repeat fixed; 
+	-webkit-background-size: cover ;
+	-moz-background-size: cover ;
+	-o-background-size: cover ;
+	background-size: cover;
+	
+}
+ /*Cabecera*/
+
+header{
+	background-color: rgba(216,11,120,0.77);
+}
+
+/*Alto de cajas de contenido*/
+
+.primero{
+	height: auto;
+	
+}
+
+.segundo{
+	height: auto;
+}
+
+/* Color de texto y efecto de fondo*/
+.white{
+	color: white;
+}
+
+.color{
+	
+	background-color:hsla(0,10%,76%,0.42);
+}
+
+.blog{
+	background-color:rgba(237,9,13,0.59);
+}
+
+/*Busqueda*/
+.animated-search-form[type=search] {
+  width: 20rem;
+  border: 0.125rem solid #e6e6e6;
+  box-shadow: 0 0 3.125rem rgba(0, 0, 0, 0.18);
+  border-radius: 10px;
+  background-image: url("../img/search-green-icon.png");
+  background-position: 0.625rem 0.625rem;
+  background-repeat: no-repeat;
+  padding: 0.75rem 1.25rem 0.75rem 2rem;
+  transition: width 0.4s ease-in-out;
+  margin-left: 5%;	
+  
+}
+
+/*Caja de comentarios*/
+
+.animated-text-form[type=text-area] {
+  width: 20rem;
+  height: 3rem;	
+  border: 0.125rem solid #e6e6e6;
+  box-shadow: 0 0 3.125rem rgba(0, 0, 0, 0.18);
+  border-radius: 10px;
+  background-position: 0.625rem 0.625rem;
+  background-repeat: no-repeat;
+  padding: 0.75rem 1.25rem 0.75rem 2rem;
+  transition: width 0.4s ease-in-out;
+  margin-left: 5%;	
+    
+}
+
+/*Blog*/
+
+.responsive-blog-post {
+  margin-bottom: 4rem;
+}
+
+.responsive-blog-post p {
+ 
+}
+
+.responsive-blog-post .button {
+  padding: 0.85rem 3rem;
+  background: #1779ba;
+}
+
+.responsive-blog-post .button:hover {
+  background-color: #146aa3;
+  transition: color 0.3s ease-in;
+}
+
+.responsive-blog-post .individual-post {
+  margin-bottom: 4rem;
+}
+
+.responsive-blog-post h4 {
+  margin-bottom: 0;
+}
+
+.responsive-blog-post h4:hover {
+  text-decoration: underline;
+  transition: color 0.3s ease-in;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .responsive-blog-post h4 {
+    font-size: 1.5rem;
+  }
+}
+
+.responsive-blog-post img {
+  margin-bottom: 1.5rem;
+	
+}
+
+.responsive-blog-post .date {
+  font-size: 0.8rem;
+  
+}
+
+.button{
+	margin-left: 5% !important;	
+	
+}
+
+/*Menú*/
+
+
+.list-group {
+  box-shadow: none;
+  overflow: hidden;
+  color:white;
+  width: 90%;
+}
+
+
+.list-group-item {
+  padding: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.list-group-item > :last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.list-group-item:hover, .list-group-item:focus {
+  background-color: #e6e6e6;
+}
+
+.imgfav{
+	width: 35%;
+	height: 100px;
+	margin: 10px;
+	float: right;
+}
+.lightblue{
+	background-color: rgba(6,20,172,0.51);
+}

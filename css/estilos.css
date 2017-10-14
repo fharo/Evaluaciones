@@ -1,0 +1,89 @@
+body{
+	
+	text-decoration-color: white;
+	background-color: black !important;
+	
+}
+
+header{
+	height: 140px;
+	
+}
+
+.musica{
+	display: block;
+	background-color:hsla(146,97%,35%,1.00);
+	/*background: url( ../img/music_is_life_hd_wallpapers.jpg ) no-repeat fixed; */
+	-webkit-background-size: cover ;
+	-moz-background-size: cover ;
+	-o-background-size: cover ;
+	background-size: cover;	
+}
+.fondo{
+	display: block;
+	background: url( ../img/fondo.jpg ) no-repeat fixed; 
+	-webkit-background-size: cover ;
+	-moz-background-size: cover ;
+	-o-background-size: cover ;
+	background-size: cover;	
+	
+}
+.logo-music{
+	height: 120px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.redes-sociales{
+	height: 25px;
+	width: 30px;
+	}
+
+.active{
+	background-color:red !important;
+}
+
+.bandas{
+	height: 150px;
+}
+.dl-horizontal{
+	border-radius: 5px !important;
+	border-color: white !important;
+}
+
+.white-text{
+	color: white !important;
+}
+
+#imaginary_container{
+    margin-top:20%; 
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+.btn-primary{
+	width: 150px !important;
+}
+
+footer{
+	height: 140px;
+}
+
+.textarea{
+	height: 80% !important;
+	border-radius: 20px !important;
+}
+
+.busqueda{
+	width: 350px !important;
+}
